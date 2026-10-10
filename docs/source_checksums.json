@@ -1,0 +1,10 @@
+{
+  "eog_only/egitim.py": "e37cb00ec39d5b90ab5b65038170ce43ad170768614e565a785d03b0b793d551",
+  "eog_only/eog_ortak.py": "89d58a1721dcd6419d609bc9f00119aead84779b7696200ac223fc54a18f188c",
+  "eog_only/gercek_zaman.py": "937bdadf028c28550ca6372f316da05c80404e3a32797ee06e102c8f794904bc",
+  "eog_only/kayit.py": "5b16e93f0454aeeda6129605f7e1c41d865e9ab3b7a81f3b85b03a603edfbdfc",
+  "motor_integration/egitim.py": "e37cb00ec39d5b90ab5b65038170ce43ad170768614e565a785d03b0b793d551",
+  "motor_integration/eog_ortak.py": "89d58a1721dcd6419d609bc9f00119aead84779b7696200ac223fc54a18f188c",
+  "motor_integration/gercek_zaman.py": "f520c0c37fd67df0953111f050812b0283c79abcb4af9a5a069d9c72c7520679",
+  "motor_integration/kayit.py": "5b16e93f0454aeeda6129605f7e1c41d865e9ab3b7a81f3b85b03a603edfbdfc"
+}

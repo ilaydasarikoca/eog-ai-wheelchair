@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-11",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "hardware_free_tests": 10,
+  "result": "PASS",
+  "syntax_check": "PASS",
+  "model_loading": "PASS",
+  "raw_recording_window_inference": "PASS",
+  "reported_confusion_matrix_arithmetic": "189/197 = 95.939%",
+  "gui_checks": "Startup and event logic checked using mocked Tkinter and non-starting threads; no physical hardware used",
+  "not_verified": [
+    "Physical motor operation",
+    "Actual latency",
+    "Original 95.9% test rerun",
+    "Generalization to unseen participants"
+  ]
+}

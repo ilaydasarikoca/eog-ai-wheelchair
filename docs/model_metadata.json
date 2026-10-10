@@ -1,0 +1,61 @@
+{
+  "type": "Pipeline",
+  "input_features": 209,
+  "classes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "steps": [
+    {
+      "name": "standardscaler",
+      "type": "StandardScaler",
+      "params": {
+        "copy": true,
+        "with_mean": true,
+        "with_std": true
+      }
+    },
+    {
+      "name": "mlpclassifier",
+      "type": "MLPClassifier",
+      "params": {
+        "activation": "relu",
+        "alpha": 0.0001,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          96,
+          48
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 15000,
+        "max_iter": 1800,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 42,
+        "shuffle": true,
+        "solver": "adam",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    }
+  ],
+  "scaler_samples_seen": 647.0,
+  "model_sha256": "6e319b13f122951375cd212512ec95546bdf890e49f9db6c22730700add323df",
+  "class_mapping": {
+    "0": "neutral",
+    "1": "right",
+    "2": "left",
+    "3": "long_blink"
+  }
+}
